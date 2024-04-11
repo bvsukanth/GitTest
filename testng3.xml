@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Demo Suite">
+	<test thread-count="5" name="Regression">
+	<!-- You can include and exclude at group level and run. Give groups tag for test cases -->
+		<groups>
+			<run>
+				<include name="Smoke" /> 
+				<!-- <exclude name="Smoke" /> -->
+			</run>
+		</groups>
+		<classes>
+			<class name="TestNGPackagae.TestNGDemo1" />
+			<class name="TestNGPackagae.TestNGDemo2" />
+			<class name="TestNGPackagae.TestNGDemo3" />
+			<class name="TestNGPackagae.TestNGDemo4" />
+		</classes>
+	</test>
+</suite> 

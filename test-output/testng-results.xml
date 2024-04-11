@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="13" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-22T03:11:36 IST" name="Demo Suite" finished-at="2023-06-22T03:11:36 IST" duration-ms="68">
+    <groups>
+      <group name="Smoke">
+        <method signature="TestNGDemo3.WebLoginCar()[pri:0, instance:TestNGPackagae.TestNGDemo3@34f5090e]" name="WebLoginCar" class="TestNGPackagae.TestNGDemo3"/>
+        <method signature="TestNGDemo3.APILoginCar()[pri:0, instance:TestNGPackagae.TestNGDemo3@34f5090e]" name="APILoginCar" class="TestNGPackagae.TestNGDemo3"/>
+        <method signature="TestNGDemo2.Demo_Demo2()[pri:0, instance:TestNGPackagae.TestNGDemo2@1613674b]" name="Demo_Demo2" class="TestNGPackagae.TestNGDemo2"/>
+        <method signature="TestNGDemo4.MobileLoginHome()[pri:0, instance:TestNGPackagae.TestNGDemo4@7fee8714]" name="MobileLoginHome" class="TestNGPackagae.TestNGDemo4"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-06-22T03:11:36 IST" name="Demo Test 1" finished-at="2023-06-22T03:11:36 IST" duration-ms="68">
+      <class name="TestNGPackagae.TestNGDemo4">
+        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:TestNGPackagae.TestNGDemo4@7fee8714]" started-at="2023-06-22T03:11:36 IST" name="BeforeClass" finished-at="2023-06-22T03:11:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestNGPackagae.TestNGDemo4@7fee8714]" started-at="2023-06-22T03:11:36 IST" name="BeforeMethod" finished-at="2023-06-22T03:11:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="APILoginHome(java.lang.String)[pri:0, instance:TestNGPackagae.TestNGDemo4@7fee8714]" started-at="2023-06-22T03:11:36 IST" name="APILoginHome" finished-at="2023-06-22T03:11:36 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginHome -->
+        <test-method signature="MobileLoginHome()[pri:0, instance:TestNGPackagae.TestNGDemo4@7fee8714]" started-at="2023-06-22T03:11:36 IST" name="MobileLoginHome" finished-at="2023-06-22T03:11:36 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginHome -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestNGPackagae.TestNGDemo4@7fee8714]" started-at="2023-06-22T03:11:36 IST" name="BeforeMethod" finished-at="2023-06-22T03:11:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestNGPackagae.TestNGDemo4@7fee8714]" started-at="2023-06-22T03:11:36 IST" name="BeforeMethod" finished-at="2023-06-22T03:11:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="WebLoginHome(java.lang.String,java.lang.String)[pri:0, instance:TestNGPackagae.TestNGDemo4@7fee8714]" started-at="2023-06-22T03:11:36 IST" name="WebLoginHome" data-provider="getData" finished-at="2023-06-22T03:11:36 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginHome -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestNGPackagae.TestNGDemo4@7fee8714]" started-at="2023-06-22T03:11:36 IST" name="BeforeMethod" finished-at="2023-06-22T03:11:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="WebLoginHome(java.lang.String,java.lang.String)[pri:0, instance:TestNGPackagae.TestNGDemo4@7fee8714]" started-at="2023-06-22T03:11:36 IST" name="WebLoginHome" data-provider="getData" finished-at="2023-06-22T03:11:36 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginHome -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestNGPackagae.TestNGDemo4@7fee8714]" started-at="2023-06-22T03:11:36 IST" name="BeforeMethod" finished-at="2023-06-22T03:11:36 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="WebLoginHome(java.lang.String,java.lang.String)[pri:0, instance:TestNGPackagae.TestNGDemo4@7fee8714]" started-at="2023-06-22T03:11:36 IST" name="WebLoginHome" data-provider="getData" finished-at="2023-06-22T03:11:36 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginHome -->
+        <test-method is-config="true" signature="AfterClass()[pri:0, instance:TestNGPackagae.TestNGDemo4@7fee8714]" started-at="2023-06-22T03:11:36 IST" name="AfterClass" finished-at="2023-06-22T03:11:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:TestNGPackagae.TestNGDemo4@7fee8714]" started-at="2023-06-22T03:11:36 IST" name="AfterSuite" finished-at="2023-06-22T03:11:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuite -->
+      </class> <!-- TestNGPackagae.TestNGDemo4 -->
+      <class name="TestNGPackagae.TestNGDemo2">
+        <test-method is-config="true" signature="BeforeSuite()[pri:0, instance:TestNGPackagae.TestNGDemo2@1613674b]" started-at="2023-06-22T03:11:36 IST" name="BeforeSuite" finished-at="2023-06-22T03:11:36 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+      </class> <!-- TestNGPackagae.TestNGDemo2 -->
+    </test> <!-- Demo Test 1 -->
+    <test started-at="2023-06-22T03:11:36 IST" name="Demo Test" finished-at="2023-06-22T03:11:36 IST" duration-ms="55">
+      <class name="TestNGPackagae.TestNGDemo1">
+        <test-method signature="Demo1()[pri:0, instance:TestNGPackagae.TestNGDemo1@29e495ff]" started-at="2023-06-22T03:11:36 IST" name="Demo1" finished-at="2023-06-22T03:11:36 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo1 -->
+        <test-method signature="Demo(java.lang.String,java.lang.String)[pri:0, instance:TestNGPackagae.TestNGDemo1@29e495ff]" started-at="2023-06-22T03:11:36 IST" name="Demo" finished-at="2023-06-22T03:11:36 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method is-config="true" signature="AfterTest()[pri:0, instance:TestNGPackagae.TestNGDemo1@29e495ff]" started-at="2023-06-22T03:11:36 IST" name="AfterTest" finished-at="2023-06-22T03:11:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+      </class> <!-- TestNGPackagae.TestNGDemo1 -->
+      <class name="TestNGPackagae.TestNGDemo3">
+        <test-method signature="WebLoginCar()[pri:0, instance:TestNGPackagae.TestNGDemo3@34f5090e]" started-at="2023-06-22T03:11:36 IST" name="WebLoginCar" finished-at="2023-06-22T03:11:36 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginCar -->
+        <test-method signature="APILoginCar()[pri:0, instance:TestNGPackagae.TestNGDemo3@34f5090e]" started-at="2023-06-22T03:11:36 IST" name="APILoginCar" finished-at="2023-06-22T03:11:36 IST" depends-on-methods="TestNGPackagae.TestNGDemo3.WebLoginCar" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginCar -->
+        <test-method is-config="true" signature="AfterTest()[pri:0, instance:TestNGPackagae.TestNGDemo3@34f5090e]" started-at="2023-06-22T03:11:36 IST" name="AfterTest" finished-at="2023-06-22T03:11:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+      </class> <!-- TestNGPackagae.TestNGDemo3 -->
+      <class name="TestNGPackagae.TestNGDemo2">
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:TestNGPackagae.TestNGDemo2@1613674b]" started-at="2023-06-22T03:11:36 IST" name="BeforeTest" finished-at="2023-06-22T03:11:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestNGPackagae.TestNGDemo2@1613674b]" started-at="2023-06-22T03:11:36 IST" name="BeforeMethod" finished-at="2023-06-22T03:11:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="Demo_Demo2()[pri:0, instance:TestNGPackagae.TestNGDemo2@1613674b]" started-at="2023-06-22T03:11:36 IST" name="Demo_Demo2" finished-at="2023-06-22T03:11:36 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo_Demo2 -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:TestNGPackagae.TestNGDemo2@1613674b]" started-at="2023-06-22T03:11:36 IST" name="AfterMethod" finished-at="2023-06-22T03:11:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- TestNGPackagae.TestNGDemo2 -->
+    </test> <!-- Demo Test -->
+  </suite> <!-- Demo Suite -->
+</testng-results>
